@@ -4,7 +4,12 @@
     --textSoft:#e5e5e5;
     --text:white;
     --btn :#3673fd;  
-    
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing :border-box;
 }
 body{
     background-color: var(--bg);
@@ -14,4 +19,17 @@ body{
 a{
     text-decoration:none;
     color:inherit
+}
+.container{
+
+    width: 1536px;
+    margin:auto;
+    padding-left:50px ;
+    padding-right: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
 }

@@ -1,8 +1,9 @@
 import Link from "next/link";
+import styles from  "./navbar.module.css"
 const Navbar =()=>{
     return(
-        <div>
-            <div>
+        <div className={styles.container}>
+            <div className={styles.logo}>
                 logo
             </div>
             <div>
