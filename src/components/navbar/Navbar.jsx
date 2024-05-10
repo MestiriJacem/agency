@@ -4,9 +4,9 @@ import Links from "./links/Links";
 const Navbar =()=>{
     return(
         <div className={styles.container}>
-            <div className={styles.logo}>
+            <Link href="/" className={styles.logo}>
                 logo
-            </div>
+            </Link>
             <div>
         <Links/>
             </div>
