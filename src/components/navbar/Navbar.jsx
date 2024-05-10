@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from  "./navbar.module.css"
+import Links from "./links/Links";
 const Navbar =()=>{
     return(
         <div className={styles.container}>
@@ -7,10 +8,7 @@ const Navbar =()=>{
                 logo
             </div>
             <div>
-              <Link href ="/">Homepage</Link>
-              <Link href ="/about">About</Link>
-              <Link href ="/contact">Contact</Link>
-              
+        <Links/>
             </div>
         </div>
     )
