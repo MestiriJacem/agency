@@ -1,7 +1,11 @@
-const blog = () => {
-    return ( <div>
-        blog
-    </div> );
+const BlogPage =()=>{
+    return(
+
+
+    <div className={styles.container}>
+
+
+    </div>
+    )
 }
- 
-export default blog;
+export default BlogPage
